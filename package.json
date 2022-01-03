@@ -1,0 +1,21 @@
+{
+  "name": "botts-1.0.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc -w --skipLibCheck"
+  },
+  "keywords": [],
+  "author": "DuzzyWF",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.5.0",
+    "dotenv": "^10.0.0",
+    "tsc": "^2.0.3"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
+}
