@@ -12,12 +12,12 @@ export default {
         .setColor('ORANGE')
         .setFields(
             {
-                name: 'Comando incorreto!',
-                value: 'Use !sugerir <sugestão>'
+                name: 'Incorrect command!',
+                value: 'Use !suggest <suggestion>'
             },
             {
                 name: 'Exemplo:',
-                value: '!sugerir Adicionar mais itens no mercado'
+                value: '!suggest Adicionar mais itens no mercado'
             }
         )
 
@@ -26,7 +26,7 @@ export default {
 
         const sugest = args.join(' ');
 
-        if (command === 'sugerir' && !sugest) {
+        if (command === 'suggest' && !sugest) {
             message.channel.send({ content: `<@${message.author.id}>`, embeds: [error] })
         }
 

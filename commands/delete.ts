@@ -9,7 +9,7 @@ export default {
 
         const closeEmbed = new MessageEmbed()
         .setColor('ORANGE')
-        .setFooter({ text: 'CLIQUE EM ✅ PARA DELETAR O TICKET' })
+        .setFooter({ text: 'TO DELETE THE TICKET PRESS ✅' })
 
         if (
             id === '889369640067805194' ||

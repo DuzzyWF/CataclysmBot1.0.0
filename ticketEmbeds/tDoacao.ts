@@ -1,28 +1,28 @@
 import { MessageEmbed } from "discord.js";
 
 const tDoacao = new MessageEmbed()
-.setTitle('Realizando pagamentos')
+.setTitle('Carrying out payments')
 .setColor('ORANGE')
 .setURL('https://loja.cattaclysm.com')
-.setFooter({ text: 'Para voltar ao menu principal de reações, use !menu' })
+.setFooter({ text: 'To return to the main menu of reactions, use !menu' })
 .setDescription(
-    '📋 Entenda como funcionam os pagamentos e seus termos.\n\n' +
-    'Os pagamentos ao servidor seguem um modelo de doação.\n' +
-    'No modelo de doação você não está contratando nossos serviços e nem pagando por eles.\n' +
-    'Você está apenas incentivando o crescimento do servidor e em troca recebe benefícios.\n'
+    '📋 Understand how payments work and their terms.\n\n' +
+    'The payments to the server follow a donation model.\n' +
+    'In the donation model you are neither contracting our services nor paying for them.\n' +
+    'You are only encouraging the growth of the server and in return you receive benefits.\n'
 )
 .setFields(
     {
-        name: 'Sem reembolso:',
-        value: 'Seguindo o modelo de doação, você concorda que seu dinheiro não será reembolsado.\n' +
-        'Você pode visualizar os termos com mais detalhes ao visitar o site onde os pagamentos são efetuados.'
+        name: 'No Refunds:',
+        value: 'By following the donation model, you agree that your money will not be refunded.\n' +
+        'You can view the terms in more detail by visiting our website where the payments are made.'
     },
     {
-        name: 'Pagamento:',
-        value: 'Os pagamentos são realizados apenas através do site do servidor utilizando a plataforma de sua escolha.\n' +
-        'PagSeguro, Paypal, MercadoPago ou Juno.\n' +
-        'Boleto, Pix e Cartão de crédito.\n' +
-        'SITE: https://loja.cattaclysm.com'
+        name: 'Payment:',
+        value: "Payments are made only through the server's site using the platform of your choice.\n" +
+        'Paypal.\n' +
+        'Payment slip or Credit Card.\n' +
+        'WEBSITE: https://loja.cattaclysm.com'
     }
 )
 

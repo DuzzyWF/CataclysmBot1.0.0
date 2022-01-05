@@ -135,13 +135,13 @@ export default {
 
                                         if (reaction?.emoji.name === "💳") {
                                           channel.send(
-                                            "**Aguarde, um responsável entrará em contato.** <@847637326204764202>"
+                                            "**AA staff member will contact you shortly.** <@847637326204764202>"
                                           );
                                         } else if (
                                           reaction?.emoji.name === "💵"
                                         ) {
                                           channel.send(
-                                            "**Aguarde, um responsável entrará em contato.** <@847637326204764202>"
+                                            "**A staff member will contact you shortly.* <@847637326204764202>"
                                           );
                                         } else if (
                                           reaction?.emoji.name === "📄"
@@ -165,7 +165,7 @@ export default {
                                                     "🚨"
                                                   ) {
                                                     channel.send(
-                                                      "**Aguarde, um responsável entrará em contato.** <@847637326204764202>"
+                                                      "**A staff member will contact you shortly.** <@847637326204764202>"
                                                     );
                                                   }
                                                 });

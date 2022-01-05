@@ -1,22 +1,22 @@
 import { MessageEmbed } from "discord.js";
 
 const tMenu = new MessageEmbed()
-.setTitle('Como posso ajudar?')
+.setTitle('How can i help?')
 .setColor('ORANGE')
 .setURL('https://loja.cattaclysm.com')
 .setDescription(
-    'Clique nas reações abaixo:\n\n' +
-    '🍀 Suporte\n' +
-    '🛑 Denuncias\n' +
-    '📛 Reportar bugs\n' +
-    '💰 Pagamentos\n' +
-    '📚 Outros'
+    'Click on the reactions below:\n\n' +
+    '🍀 Support\n' +
+    '🛑 Reports\n' +
+    '📛 Bug Report\n' +
+    '💰 Payments\n' +
+    '📚 Others'
 )
 .setFields(
     {
-        name: 'Observação:',
-        value: 'Caso o bot não solucione seu problema, aguarde o contato da equipe.\n' +
-        'Não marque os membros da equipe na conversa.'
+        name: 'Note:',
+        value: 'If the bot does not solve your problem, wait for the team to contact you.\n' +
+        "Don't tag team members in the chat."
     }
 )
 

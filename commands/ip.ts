@@ -4,19 +4,19 @@ export default {
     callback: (message: Message) => {
 
         const ipEmbed = new MessageEmbed()
-        .setTitle('IPs do servidor:')
+        .setTitle('Server IP Adresses:')
         .setURL('https://loja.cattaclysm.com')
         .setColor('ORANGE')
-        .setFooter({ text: 'Precisa de ajuda? Use !ticket', iconURL: 'https://i.imgur.com/aLxBo8H.png'})
+        .setFooter({ text: 'In need of any help? Contact us with !ticket', iconURL: 'https://i.imgur.com/aLxBo8H.png'})
         .setDescription(
-            '📋 Copie e cole os endereços abaixo:\n\n' +
+            '📋 Copy and paste any of the following IP adresses:\n\n' +
             '1. cattaclysm.com\n2. jogar.cattaclysm.com\n3. 200.9.154.72:10005\n'
         )
         .addFields(
             {
-                name: 'Problema de conexão:',
-                value: 'Caso não consiga realizar a conexão com nenhum' +
-                ' dos IPs acima, reinicie seu modem e seu computador.'
+                name: 'Connection Problem:',
+                value: 'In case of none of the IP Adresses work' +
+                ' try rebooting your PC or your modem.'
             }
         )
 
