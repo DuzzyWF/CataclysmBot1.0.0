@@ -4,12 +4,12 @@ export default {
     callback: (message: Message) => {
 
         const unbanEmbed = new MessageEmbed()
-        .setTitle('Volte ao servidor:')
+        .setTitle('Unban:')
         .setURL('https://loja.cattaclysm.com')
         .setColor('ORANGE')
-        .setFooter({ text: 'Precisa de ajuda? Use !ticket', iconURL: 'https://i.imgur.com/aLxBo8H.png'})
+        .setFooter({ text: 'Need Help? Contact us with !ticket', iconURL: 'https://i.imgur.com/aLxBo8H.png'})
         .setDescription(
-            '📋 Siga as instruções da imagem para ser desbanido.'
+            '📋 Follow the instructions in the image to get unbanned.'
         )
         .setImage('https://i.imgur.com/MEp3iWr.png')
 

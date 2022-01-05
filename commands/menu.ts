@@ -98,10 +98,10 @@ export default {
                                         const reaction = collected.first();
 
                                         if (reaction?.emoji.name === '💳') {
-                                            message.channel.send('**Aguarde, um responsável entrará em contato.** <@847637326204764202>')
+                                            message.channel.send('**A staff member will contact you shortly.** <@847637326204764202>')
                                         }
                                         else if (reaction?.emoji.name === '💵') {
-                                            message.channel.send('**Aguarde, um responsável entrará em contato.** <@847637326204764202>')
+                                            message.channel.send('**A staff member will contact you shortly.** <@847637326204764202>')
                                         }
                                         else if (reaction?.emoji.name === '📄') {
                                             message.channel.send({ embeds: [tBoleto] }).then( async (message: Message) => {
@@ -111,7 +111,7 @@ export default {
                                                     const reaction = collected.first();
 
                                                     if (reaction?.emoji.name === '🚨') {
-                                                        message.channel.send('**Aguarde, um responsável entrará em contato.** <@847637326204764202>')
+                                                        message.channel.send('**A staff member will contact you shortly.** <@847637326204764202>')
                                                     }
                                                 })
                                             })

@@ -1,16 +1,16 @@
 import { MessageEmbed } from "discord.js";
 
 const tRoubo = new MessageEmbed()
-.setTitle('Roubo de itens')
+.setTitle('Item Theft')
 .setColor('ORANGE')
 .setURL('https://loja.cattaclysm.com')
-.setFooter({ text: 'Para voltar ao menu principal de reações, use !menu' })
+.setFooter({ text: 'To return to the main menu of reactions, use !menu' })
 .setDescription(
-    '📋 Não há devolução de itens roubados.\n\n' +
-    'O servidor oferece diversas formas para que o player ' +
-    'consiga proteger aos seus bens e é responsabilidade ' +
-    'do player utilizar-se das mecânicas disponíveis.\n' +
-    'O player deve também possuir discernimento para não confiar em estranhos.'
+    '📋 No refunds for stolen items.\n\n' +
+    'The server offers several ways for the player' +
+    "to protect his assets and it's the player's  " +
+    'responsibility to use the available mechanics.\n' +
+    'The player must also have discernment not to trust strangers.'
 )
 
 export = tRoubo

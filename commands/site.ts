@@ -4,12 +4,12 @@ export default {
     callback: (message: Message) => {
 
         const siteEmbed = new MessageEmbed()
-        .setTitle('Site do servidor:')
+        .setTitle('Server Website:')
         .setURL('https://loja.cattaclysm.com')
         .setColor('ORANGE')
-        .setFooter({ text: 'Precisa de ajuda? Use !ticket', iconURL: 'https://i.imgur.com/aLxBo8H.png'})
+        .setFooter({ text: 'Need Help? Contact us with !ticket', iconURL: 'https://i.imgur.com/aLxBo8H.png'})
         .setDescription(
-            '📋 Clique no link abaixo para ir até o site.\n\n' +
+            '📋 Click on the link below to go to our site.\n\n' +
             'https://loja.cattaclysm.com'
         )
 

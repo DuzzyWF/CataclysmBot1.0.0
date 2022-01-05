@@ -1,15 +1,15 @@
 import { MessageEmbed } from "discord.js";
 
 const tPerda = new MessageEmbed()
-.setTitle('Perda de itens')
+.setTitle('Loss of items')
 .setColor('ORANGE')
 .setURL('https://loja.cattaclysm.com')
-.setFooter({ text: 'Para voltar ao menu principal de reações, use !menu' })
+.setFooter({ text: 'To return to the main menu of reactions, use !menu' })
 .setDescription(
-    '📋 Não há devolução de itens perdidos.\n\n' +
-    'Não há formas de devolução de itens perdidos ou destruídos.\n' +
-    'Itens são devolvidos apenas quando em atualizações, ' +
-    'um bug em escala global ocorre e afeta a todos os players do servidor.'
+    '📋 No refunds for lost items.\n\n' +
+    'There are no ways to return lost or destroyed items.\n' +
+    'Items are returned only when in updates, a bug' +
+    'on a global scale occurs that affects all players on the server'
 )
 
 export = tPerda

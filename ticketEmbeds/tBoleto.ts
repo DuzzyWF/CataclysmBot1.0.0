@@ -1,19 +1,19 @@
 import { MessageEmbed } from "discord.js";
 
 const tBoleto = new MessageEmbed()
-.setTitle('Boletos bancários')
+.setTitle('Payment slips')
 .setColor('ORANGE')
 .setURL('https://loja.cattaclysm.com')
-.setFooter({ text: 'Para voltar ao menu principal de reações, use !menu' })
+.setFooter({ text: 'To return to the main menu of reactions, use !menu' })
 .setDescription(
-    '📋 Boletos bancários levam até 3 dias úteis para serem compensados.\n\n' +
-    'Os produtos são entregues de forma automática, então mesmo com a apresentação ' +
-    'do comprovante de pagamento, não será possível ativar seu produto antes da compensação.'
+    '📋 Payment slips take up to 3 business days to clear.\n\n' +
+    'The products are delivered automatically, so even with the presentation ' +
+    'of proof of payment, it will not be possible to activate your product before clearing.'
 )
 .setFields(
     {
-        name: 'Se passaram os 03 dias?',
-        value: 'Caso os 03 dias úteis tenham passado e seu produto não tenha sido entregue, clique na reação abaixo.'
+        name: 'Have 3 days already passed?',
+        value: 'If the 3 working days have passed and your product has not been delivered, click on the reaction below.'
     }
 )
 

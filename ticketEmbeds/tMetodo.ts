@@ -1,15 +1,14 @@
 import { MessageEmbed } from "discord.js";
 
 const tMetodo = new MessageEmbed()
-.setTitle('Atraso na entrega')
+.setTitle('Delivery delay')
 .setColor('ORANGE')
 .setURL('https://loja.cattaclysm.com')
-.setFooter({ text: 'Para voltar ao menu principal de reações, use !menu' })
+.setFooter({ text: 'To return to the main menu of reactions, use !menu' })
 .setDescription(
-    '📋 Selecione abaixo qual foi o método de pagamento.\n\n' +
-    '💳 Cartão de crédito\n' +
-    '📄 Boleto bancário\n' +
-    '💵 Pix'
+    '📋 Select below what was the payment method.\n\n' +
+    '💳 Credit Card\n' +
+    '📄 Payment Slip\n' 
 )
 
 export = tMetodo

@@ -1,14 +1,14 @@
 import { MessageEmbed } from "discord.js";
 
 const tPagamento = new MessageEmbed()
-.setTitle('Pagamentos')
+.setTitle('Payments')
 .setColor('ORANGE')
 .setURL('https://loja.cattaclysm.com')
-.setFooter({ text: 'Para voltar ao menu principal de reações, use !menu' })
+.setFooter({ text: 'To return to the main menu of reactions, use !menu' })
 .setDescription(
-    '📋 Selecione uma opção abaixo.\n\n' +
-    '🤝 Como funciona o pagamento\n' +
-    '💸 Produto não foi recebido\n'
+    '📋 Select one of the options below.\n\n' +
+    '🤝 How the payment works\n' +
+    '💸 Product not received\n'
 )
 
 export = tPagamento

@@ -1,23 +1,23 @@
 import { MessageEmbed } from "discord.js";
 
 const tReport = new MessageEmbed()
-.setTitle('Reportar bugs')
+.setTitle('Bug Reports')
 .setColor('ORANGE')
 .setURL('https://loja.cattaclysm.com')
-.setFooter({ text: 'Para voltar ao menu principal de reações, use !menu' })
+.setFooter({ text: 'To return to the main menu of reactions, use !menu' })
 .setDescription(
-    '📋 Reportando bugs você pode ganhar recompensas.\n\n' +
-    'Bugs podem acontecer a qualquer momento, principalmente ' +
-    'após grandes atualizações no servidor, mas infelizmente ' +
-    'não é sempre que nossa equipe consegue descobri-los a tempo.\n' +
-    'Por esse motivo precisamos da colaboração dos players para ' +
-    'reportarem o bug e evitar que futuramente haja um abuso de bugs.'
+    '📋 Reporting bugs can earn you rewards.\n\n' +
+    'Bugs can happen at any time, especially after major' +
+    'server updates. Unfortunately, it is not always ' +
+    'that our team is able to discover them in time.\n' +
+    'Therefore we need the collaboration of the players to ' +
+    'report the bug and prevent future bug abuse.'
 )
 .setFields(
     {
-        name: 'Observação:',
-        value: 'Descreva o bug com o máximo de detalhes possível logo abaixo.\n' +
-        'Em breve um responsável entrará em contato sobre a sua recompensa.'
+        name: 'Note:',
+        value: 'Describe the bug in as much detail as possible below.\n' +
+        'An agent will contact you shortly about your reward.'
     }
 )
 

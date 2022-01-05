@@ -9,10 +9,10 @@ export default {
 
         const closeEmbed = new MessageEmbed()
         .setColor('ORANGE')
-        .setFooter({ text: 'CLIQUE EM ✅ PARA FINALIZAR O TICKET' })
+        .setFooter({ text: 'TO CLOSE THE TICKET PRESS ✅' })
 
         if (
-            id === '889369640067805194' ||
+            id === '847637674114023454' ||
             id === '896341301304373248' ||
             id === '903980003526602762' ||
             id === '910129464665571369' ||
@@ -64,7 +64,7 @@ export default {
 
                         const deleteEmbed = new MessageEmbed()
                         .setColor('ORANGE')
-                        .setFooter({ text: 'Use !delete para deletar o ticket.'})
+                        .setFooter({ text: 'TO DELETE THE TICKET WRITE !delete.'})
 
                         message.send({ embeds: [deleteEmbed] })
                     })
